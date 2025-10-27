@@ -1,0 +1,35 @@
+:root {
+  --ink: #102a43;      
+  --bg:  #bfe0ef;      
+  --accent: #22577a;   
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);              
+  font-family: Arial, sans-serif; 
+  font-size: 18px;                
+  line-height: 1.6;
+  margin: 24px;
+}
+
+
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  border-bottom: 4px solid var(--accent);
+  padding-bottom: 6px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 1.25rem;
+  color: #0b3d5c;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
