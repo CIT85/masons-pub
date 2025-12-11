@@ -51,3 +51,11 @@ I used three CSS positioning techniques required for the project:
 
 ## My Responsiveness using Media Queries
 My layout will change at these breakpoints. The navigation and content will stack vertically at smaller widths. On tablets, content stays in one column but spacing increases. On laptops and larger screens, content is displayed in two columns, spacing increases, and images adjust to the available width.
+
+## Hero Image Design
+
+For my hero image, I chose a mountain landscape because it represents the theme of my website: nature, wildlife, and the outdoors. The image appears at the top of my home page and contact page as a large banner section.
+
+I used background-size: cover to make sure the image fills the entire width of the header area and stays responsive on different screen sizes. I also centered the image using background-position: center so the most important part of the scene is always visible.
+
+To keep the text readable, I used darker heading styling and added spacing so that the title stands out clearly on top of the image.
