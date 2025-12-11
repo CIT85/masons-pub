@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me — Wildlife Discovery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="hero-banner">
+  <h1>Contact Me</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="animal-groups.html">Animal Groups</a></li>
+    <li><a href="habitats.html">Habitats</a></li>
+    <li><a href="endangered.html">Endangered Species</a></li>
+    <li><a href="climate-change.html">Climate Change</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi! My name is Mason. I created this site as part of my web development class 
+      to help people learn more about animals, habitats, and endangered species. 
+      I enjoy creating visuals and learning how websites work, and this project 
+      helped me practice HTML and CSS in a real website.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Form</h2>
+
+    <form>
+      <fieldset>
+        <legend>Your Info</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message Details</legend>
+
+        <label for="reason">Reason:</label>
+        <select id="reason" name="reason" required>
+          <option value="" disabled selected>Select one...</option>
+          <option value="question">Question</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </fieldset>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p><a href="#top">Back to Top</a></p>
+  <p>© 2025 Wildlife Discovery</p>
+  <p>Created with help from <a href="https://chat.openai.com/">ChatGPT</a></p>
+  <p><a href="contact.html">Contact Me</a></p>
+  <p><a href="site.html">Site Information</a></p>
+</footer>
+
+
+</body>
+</html>
